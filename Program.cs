@@ -1,41 +1,20 @@
-﻿namespace ATMConsole_APP
+﻿namespace ATMConsole_APP;
+
+class Program
 {
-    public class CardHolder
+    public static void Main()
     {
-        private string cardNum;
-        private string firstName;
-        private string lastName;
-        private double balance;
-        private int pin;
-
-        public CardHolder(string cardNum, int pin, string firstName, string lastName, double balance)
-        {
-            this.cardNum = cardNum;
-            this.firstName = firstName;
-            this.lastName = lastName;
-            this.balance = balance;
-            this.pin = pin;
-        }
-
-        // Manual Getters
-
-        public string getNum() => cardNum;
-        public string getFirstName() => firstName;
-        public string getLastName() => lastName;
-        public double getBalance() => balance;
-        public int getPin() => pin;
-
-        // Manual setters
-        public void setNum(string newCardNum) => cardNum = newCardNum;
-        public void setFirstName(string newFirstName) => firstName = newFirstName;
-        public void setLastName(string newLastName) => lastName = newLastName;
-        public void setBalance(double newBalance) => balance = newBalance;
-        public void setPin(int newPin) => pin = newPin;
-
-        public static void Main(string[] args)
-        {
-
-        }
-
+        // list of fake people and fake pins, etc...
+        List<CardHolder> fake = new List<CardHolder>(){
+            new CardHolder("123457890123456", 1234, "John", "Griffith", 150.31),
+            new CardHolder("123457890123456", 4321, "Ashley", "Griffith", 321.13),
+            new CardHolder("123457890123456", 9999, "Freida", "Dickerson", 105.59),
+            new CardHolder("123457890123456", 2468, "Mine", "Harding", 851.84),
+            new CardHolder("123457890123456", 4826, "Dawn", "Smith", 54.27),
+        };
     }
+
+
+
+
 }

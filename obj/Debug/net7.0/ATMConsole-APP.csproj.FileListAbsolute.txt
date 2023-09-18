@@ -1,0 +1,14 @@
+C:\Users\Administrator\Documents\Visual Studio 2022\Repos\ATMConsole-APP\bin\Debug\net7.0\ATMConsole-APP.exe
+C:\Users\Administrator\Documents\Visual Studio 2022\Repos\ATMConsole-APP\bin\Debug\net7.0\ATMConsole-APP.deps.json
+C:\Users\Administrator\Documents\Visual Studio 2022\Repos\ATMConsole-APP\bin\Debug\net7.0\ATMConsole-APP.runtimeconfig.json
+C:\Users\Administrator\Documents\Visual Studio 2022\Repos\ATMConsole-APP\bin\Debug\net7.0\ATMConsole-APP.dll
+C:\Users\Administrator\Documents\Visual Studio 2022\Repos\ATMConsole-APP\bin\Debug\net7.0\ATMConsole-APP.pdb
+C:\Users\Administrator\Documents\Visual Studio 2022\Repos\ATMConsole-APP\obj\Debug\net7.0\ATMConsole-APP.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\Documents\Visual Studio 2022\Repos\ATMConsole-APP\obj\Debug\net7.0\ATMConsole-APP.AssemblyInfoInputs.cache
+C:\Users\Administrator\Documents\Visual Studio 2022\Repos\ATMConsole-APP\obj\Debug\net7.0\ATMConsole-APP.AssemblyInfo.cs
+C:\Users\Administrator\Documents\Visual Studio 2022\Repos\ATMConsole-APP\obj\Debug\net7.0\ATMConsole-APP.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Documents\Visual Studio 2022\Repos\ATMConsole-APP\obj\Debug\net7.0\ATMConsole-APP.dll
+C:\Users\Administrator\Documents\Visual Studio 2022\Repos\ATMConsole-APP\obj\Debug\net7.0\refint\ATMConsole-APP.dll
+C:\Users\Administrator\Documents\Visual Studio 2022\Repos\ATMConsole-APP\obj\Debug\net7.0\ATMConsole-APP.pdb
+C:\Users\Administrator\Documents\Visual Studio 2022\Repos\ATMConsole-APP\obj\Debug\net7.0\ATMConsole-APP.genruntimeconfig.cache
+C:\Users\Administrator\Documents\Visual Studio 2022\Repos\ATMConsole-APP\obj\Debug\net7.0\ref\ATMConsole-APP.dll
