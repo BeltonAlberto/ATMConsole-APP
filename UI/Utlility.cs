@@ -1,3 +1,5 @@
+using System.Diagnostics;
+
 namespace ATMConsole_APP;
 
 class Utility
@@ -13,4 +15,6 @@ class Utility
         Console.WriteLine($"Enter {prompt}");
         return Convert.ToString(Console.ReadLine());
     }
+
+
 }
