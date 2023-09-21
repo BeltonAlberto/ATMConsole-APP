@@ -3,19 +3,19 @@
 class ATMApp
 {
     // Instances of screen and utility
-    static Validator validator = new Validator();
-    static AppScreen appScreen = new AppScreen();
-    static Utility utility = new Utility();
+    private static Validator _validator = new Validator();
+    private static AppScreen _appScreen = new AppScreen();
+    private static Utility _utility = new Utility();
     public static void Main()
     {
 
         // calling welcome screen
-        appScreen.Welcome();
-        utility.PressEnterToContinue();
+        _appScreen.Welcome();
+        _utility.PressEnterToContinue();
 
-        long cardNumber = validator.Convert<long>("you card number");
+        long cardNumber = _validator.Convert<long>("you card number");
         Console.WriteLine($"Your card number is {cardNumber}");
 
-        utility.PressEnterToContinue();
+        _utility.PressEnterToContinue();
     }
 }

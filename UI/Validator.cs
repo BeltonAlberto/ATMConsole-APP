@@ -4,13 +4,13 @@ using ATMConsole_APP;
 class Validator
 {
     // Creates an instance of the Utility class.
-    Utility utility = new Utility();
+    private Utility _utility = new Utility();
     public T Convert<T>(string prompt)
     {
         string? userInput = string.Empty;
         while (true)
         {
-            userInput = utility.GetUserInput(prompt);
+            userInput = _utility.GetUserInput(prompt);
             try
             {
                 var converter = TypeDescriptor.GetConverter(typeof(T));
